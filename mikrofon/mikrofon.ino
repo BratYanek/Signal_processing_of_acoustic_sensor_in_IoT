@@ -23,8 +23,8 @@ int16_t sBuffer[bufferLen];
 //wywołanie funkcji arduinoFFT() z biblioteki
 arduinoFFT FFT = arduinoFFT();
 //---------------------------------Konfiguracja polaczenia wifi i przypisanie portu do serwera-----------------
-const char* ssid = "HUAWEI Mate 10 lite";
-const char* password = "27da33ce5cbc";
+const char* ssid = "Device";
+const char* password = "password";
 
 AsyncWebServer server(80);
 
